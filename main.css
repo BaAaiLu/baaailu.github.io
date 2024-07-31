@@ -6,14 +6,15 @@ padding: 10px;
 }
 
 nav ul {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
 list-style-type: none;
 padding: 0;
 }
 
 nav ul li {
-display: inline-flex;
-flex-direction: row;
-justify-content: space-evenly;
+display: flex;
 align-items: center;
 padding: 10px;
 }
@@ -21,6 +22,7 @@ padding: 10px;
 nav a {
 text-decoration: none;
 color: black;
+padding: 5px;
 }
 
 a:hover {
