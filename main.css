@@ -36,7 +36,9 @@ list-style: none;
 }
 
 @media (max-width: 1080px) {
-.navlist {
-flex-direction: column;
+.navlist li {
+width: 70px;
+line-height: 40px;
+text-align: center;
 }
 }
