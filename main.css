@@ -14,8 +14,6 @@ nav ul {
 }
 
 nav ul li {
-  display: inline-flex;
-  align-items: center;
   padding: 10px; /* 统一内边距 */
   margin: 0; /* 移除外边距 */
 }
