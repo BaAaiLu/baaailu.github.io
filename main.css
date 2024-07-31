@@ -1,30 +1,38 @@
 nav {
-display: flex;
-justify-content: space-between;
-background-color: #F0F0F0;
-padding: 10px;
+  display: flex;
+  justify-content: flex-start; /* 或使用 space-between，根据需要 */
+  background-color: #F0F0F0;
+  padding: 10px;
 }
 
 nav ul {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-list-style-type: none;
-padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
-display: flex;
-align-items: center;
-padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px; /* 统一内边距 */
+  margin: 0; /* 移除外边距 */
 }
 
 nav a {
-text-decoration: none;
-color: black;
-padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
 }
 
 a:hover {
-color: blue;
+  color: blue;
 }
