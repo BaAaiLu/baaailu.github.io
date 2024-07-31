@@ -1,36 +1,42 @@
-    .nav {
-        height: 40px;
-        background-color: #333;
-        display: flex;
-        justify-content: flex-start;
-    }
+.nav {
+height: 40px;
+background-color: #333;
+display: flex;
+justify-content: flex-start;
+}
 
-    .navlist {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-    }
+.navlist {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
 
-    .navlist li {
-        width: 100px;
-        line-height: 40px;
-        text-align: center;
-    }
+.navlist li {
+width: 100px;
+line-height: 40px;
+text-align: center;
+}
 
-    .navlist a {
-        color: white;
-        display: block;
-        text-decoration: none; /* 移除下划线 */
-    }
+.navlist a {
+color: white;
+display: block;
+text-decoration: none;
+}
 
-    .navlist li a:hover {
-        background-color: #444; /* 修正选择器 */
-    }
+.navlist li a:hover {
+background-color: #444
+}
 
-    * {
-        margin: 0;
-        padding: 0;
-        text-decoration: none;
-        list-style: none; /* 修正属性名为 list-style */
-    }
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+
+@media (max-width: 1080px) {
+.navlist {
+flex-direction: column;
+}
+}
