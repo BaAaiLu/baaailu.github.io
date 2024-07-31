@@ -1,12 +1,13 @@
 nav {
   display: flex;
-  justify-content: flex-start; /* 或使用 space-between，根据需要 */
+  justify-content: flex-betweem;
   background-color: #F0F0F0;
   padding: 10px;
 }
 
 nav ul {
   display: flex;
+  justify-content: flex-evenly;
   flex-direction: row;
   list-style-type: none;
   padding: 0;
