@@ -1,46 +1,57 @@
 <!doctype html>
 <html lang="en-US">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width"/>
-<title>BaAaiLu的小窝</title>
-<style>
-
-nav {
-background-color: #696969;
-padding: 10px
-}
-
-nav ul {
-display: flex;
-justify-content: space-evenly;
-list-style-type: none;
-}
-
-nav li {
-padding: 5px 10px;
-margin: 0px 5px;
-}
-
-nav li a {
-color: white;
-text-decoration: none;
-}
-
-nav li a:hover {
-color: #00BFFF;
-background-color: #a9a9a9;
-}
-</style>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>BaAaiLu的小窝</title>
+    <style>
+    .nav {
+        height: 40px; /* 添加单位 */
+        background-color: #333;
+        display: flex; /* 使用 Flexbox */
+        justify-content: center; /* 居中显示导航列表 */
+    }
+    
+    .navlist {
+        list-style-type: none; /* 移除列表项默认符号 */
+        margin: 0;
+        padding: 0;
+        display: flex; /* 使用 Flexbox */
+    }
+    
+    .navlist li {
+        width: 100px; /* 更改属性名为 width */
+        line-height: 40px;
+        text-align: center;
+    }
+    
+    .navlist a {
+        color: white;
+        display: block;
+        text-decoration: none; /* 移除下划线 */
+    }
+    
+    .navlist li a:hover {
+        background-color: #444; /* 修正选择器 */
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none; /* 修正属性名为 list-style */
+    }
+    
+    </style>
 </head>
 <body>
-<nav>
-<ul>
-<li><a href="#intro">介绍</a></li>
-<li><a href="#contact">扩列</a></li>
-<li><a href="#idlechat">闲聊</a></li>
-</ul>
-</nav>
+    <div class="nav">
+        <ul class="navlist">
+            <li><a href="#intro">介绍</a></li>
+            <li><a href="#contact">扩列</a></li>
+            <li><a href="#idlechat">闲聊</a></li>
+        </ul>
+    </div>
 <p>hi!</p>
 </body>
 </html>
